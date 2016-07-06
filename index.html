@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dillon Chanis | Web Developer</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="/assets/css/materialize.min.css">
+    <script src="https://use.fortawesome.com/a3f38af1.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body ng-app="app">
+
+    <header id="mast">
+      <section>
+        <h1 class="reveal-title"><span class="title-light">Dillon</span>Chanis</h1>
+        <h3 class="reveal-title">Web Developer</h3>
+      </section>
+      <div id="stars">
+        <!-- Top Nav -->
+      </div>
+    </header>
+
+    
+    <div id="divider"></div>
+    <nav>
+      <div class="nav-wrapper">
+        <ul>
+          <li class="reveal-left"><a href="#/about">About</a></li>
+          <li class="reveal-left"><a href="#/work">Work</a></li>
+          <li class="reveal-right"><a href="">Blog</a></li>
+          <li class="reveal-right"><a href="#/contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main id="page-content" class="padding" ng-view ng-controller="ViewController">      
+    </main>
+
+    <div id="divider-purple"></div>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Dillon Chanis</h5>
+            <p class="grey-text text-lighten-4">If you have any questions feel free to contact me. If you're interested check me out on social media:</p>
+            <section class="social">
+              <a href="https://github.com/dillonchanis" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+              <a href="https://www.linkedin.com/in/dillon-chanis-b20b87111" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+              <a href="http://stackoverflow.com/users/6549272/dillonchanis" target="_blank"><i class="fa fa-stack-overflow fa-2x"></i></a>
+              <a href="https://twitter.com/dillonchanis" target="_blank"> <i class="fa fa-twitter-square fa-2x"></i></a>
+            </section>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#/about">About</a></li>
+              <li><a class="grey-text text-lighten-3" href="#/work">Work</a></li>
+              <li><a class="grey-text text-lighten-3" href="">Blog</a></li>
+              <li><a class="grey-text text-lighten-3" href="#/contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          Art Assets by Freepik and distributed by Flaticon | Header image by <a href="http://www.geometrieva.com/" target="_blank">Nina Geometrieva</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- NPM Scripts -->
+    <script src="/assets/vendor/jquery.min.js"></script>
+    <script src="/assets/vendor/scrollreveal.min.js"></script>
+    <script src="/assets/vendor/materialize.min.js"></script>
+    <script src="/assets/vendor/particles.js"></script>
+    <script src="/assets/vendor/angular.min.js"></script>
+    <script src="/assets/vendor/angular-animate.min.js"></script>
+    <script src="/assets/vendor/angular-route.min.js"></script>
+
+
+    <!-- Site Scripts -->
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="app.js"></script>
+    <script src="app/controllers/ViewController.js"></script>
+  </body>
+</html>
