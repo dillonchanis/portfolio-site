@@ -61,7 +61,7 @@ nav ul li {
 }
 
 #mast {
-  background: url('../images/header-bg.jpg');
+  background: url('../images/header-bg-1.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   height: 100vh;
@@ -210,8 +210,9 @@ footer.page-footer a {
   margin-right: 12px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   #mast {
+    background: url('../images/m-header-bg.jpg');
     background-size: cover;
   }
 
@@ -229,5 +230,32 @@ footer.page-footer a {
 
   .text-blurb {
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  #mast {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 450px;
+  }
+
+  #mast h1 {
+    font-size: 32px;
+  }
+
+  #mast h3 {
+    font-size: 22px;
+  }
+
+  .projects {
+    border-right: none;
+  }
+
+  /* I lied */
+  .no-border-bottom {
+    border-bottom: 1px solid #ccc
   }
 }
