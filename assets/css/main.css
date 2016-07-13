@@ -242,6 +242,12 @@ footer.page-footer a {
     height: 450px;
   }
 
+  #mast section {
+  position: static;
+  transform: none;
+  text-align: center;
+}
+
   #mast h1 {
     font-size: 32px;
   }
