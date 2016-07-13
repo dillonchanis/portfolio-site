@@ -249,11 +249,12 @@ footer.page-footer a {
 }
 
   #mast h1 {
-    font-size: 32px;
+    font-size: 36px;
+    padding-top: 33%;
   }
 
   #mast h3 {
-    font-size: 22px;
+    font-size: 24px;
   }
 
   .projects {
